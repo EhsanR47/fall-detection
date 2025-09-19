@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project large data
+cam2-resized_frames/
+cam3-resized_frames/
+micro_activity_output/
+3dcnn_convlstm2d_Wmodels/
+persistent/
+outputs/
+checkpoints/
+
+# Large files
+*.pt
+*.pth
+*.pkl
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
