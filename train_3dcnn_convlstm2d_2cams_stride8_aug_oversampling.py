@@ -33,7 +33,7 @@ HP = {
     "use_normalize": True,                             # apply same Normalize to train & val
     "normalize_mean": [0.457405, 0.47059, 0.444467],   # dataset-specific mean (RGB in [0,1])
     "normalize_std":  [0.216927, 0.210016, 0.198048],  # dataset-specific std  (RGB in [0,1])
-    "fall_aug": True,                                  # enable class-conditional aug for Fall (label=1)
+    "fall_aug": False,                                  # enable class-conditional aug for Fall (label=1)
     "fall_aug_p": 0.6,                                 # probability to APPLY aug on Fall frames (mix aug + original)
 }
 
