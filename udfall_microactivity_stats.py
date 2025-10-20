@@ -9,11 +9,11 @@ import matplotlib.pyplot as plt
 # --------------------
 FPS = 25  # effective label rate (Hz)
 ROOTS = [
-    Path("./micro_activity_output"),  # main dataset root
+    Path("./micro_activity_output_cleaned"),  # main dataset root
     Path("./"),                       # current folder (if samples exist here)
     Path("/mnt/data"),                # optional debug path
 ]
-OUTPUT_DIR = Path("./udfall_stats")
+OUTPUT_DIR = Path("./udfall_stats-cutrepo")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Keep only existing roots
