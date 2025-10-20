@@ -91,6 +91,8 @@ print("TRAIN class dist (after oversample):", Counter([y for _, y in train_sampl
 print(f"Train seqs:{len(train_samples)}  Val seqs:{len(val_samples)}")
 
 # =============== W&B Init ===============
+#Step | The number of updates performed on the model weights (in each batch).
+#Epoch | One complete pass over the entire training dataset.
 import wandb
 run = wandb.init(
     project=HP["project"],
